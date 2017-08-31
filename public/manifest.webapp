@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "S.M.A.R.T. Goals",
+  "launch_path": "/index.html",
+  "description": "Chat with friends",
+  "developer": {
+    "name": "Anil Bachola",
+    "url": "https://firebase.google.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "S.M.A.R.T. Goals",
+      "description": "Simple, Measurable,Achievable, Realistic, Timed Goals"
+    }
+  }
+}

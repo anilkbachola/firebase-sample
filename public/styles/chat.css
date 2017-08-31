@@ -1,0 +1,225 @@
+.goals .goal {
+    position: relative;
+    padding: 0 0 0 40px;
+    display: block;
+    cursor: pointer;
+    margin: 0 0 10px;
+    border-top: 1px solid #f3f3f3;
+}
+.goals .goal .avatar {
+    top: 0;
+    left: 0;
+}
+.goals .goal .name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(100% - 40px);
+    padding: 5px 0 0 0;
+    color: #7266ba; 
+}
+.goals .goal .details {
+    line-height: 15px;
+    font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 1px;
+}
+
+.goal .details .admin{
+  display: table-cell;
+  width: calc(100% - 40px);
+  padding: 5px 0 0 0;
+  font-size: 13px; 
+  color:#757575;
+}
+
+.goal .details .date{
+    display: table-cell;
+  width: calc(100% - 40px);
+  padding: 5px 0 5px 10px;
+  color: #bbb;
+  font-size: 12px; 
+    
+}
+
+.goal .avatar {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+.goal .avatar img {
+    display: block;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.chat-body h6 {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.chat-body .chat.left {
+    padding: 0 0 3px 8px;
+    text-align: left;
+    float: left;
+}
+.chat-body .chat {
+    position: relative;
+    max-width: 600px;
+    overflow: hidden;
+    clear: both;
+}
+.chat-body .chat.left .avatar {
+    left: 0;
+}
+.chat-body .chat .avatar {
+    bottom: 36px;
+}
+.chat .avatar {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.chat .avatar img {
+    display: block;
+    border-radius: 20px;
+    height: 100%;
+}
+.chat-body .chat .name {
+    font-size: 12px;
+    line-height: 16px;
+    color:#7266ba;
+    font-weight:400;
+    padding-left: 5px;
+}
+.chat-body .chat .approve{
+  display: table-cell;
+  width: calc(100% - 40px);
+  padding-left: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+
+.chat-body .chat .delete{
+  display: table-cell;
+  width: calc(100% - 40px);
+  padding-left: 10px;
+  /*color: #0288D1;
+  font-style: italic;
+  font-size: 10px;*/
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+.chat .material-icons{
+    font-size: 20px;
+    color: #7266ba;
+}
+.chat-body .chat.left .avatar .status {
+    right: 4px;
+}
+.chat-body .chat .avatar .status {
+    bottom: 0;
+}
+.chat-body .chat.left .text {
+    background: #ebebeb;
+    color: #333333;
+    border-radius: 8px 8px 8px 0;
+}
+.chat-body .chat .text {
+    padding: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    display: table-cell;
+}
+.text img {
+  max-width: 300px;
+  max-height: 200px;
+}
+.chat-body .chat.left .text:before {
+    left: -25px;
+    border-right-color: #ebebeb;
+    border-right-width: 12px;
+}
+.chat-body .chat .text:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    border: 18px solid transparent;
+    border-bottom-width: 0;
+}
+.chat-body .chat.left .time {
+    padding-left: 20px;
+    color: #757575;
+}
+.chat-body .chat .time {
+    font-size: 11px;
+    line-height: 10px;
+    position: relative;
+    padding-bottom: 1px;
+    text-align: right;
+}
+/*RIGHT*/
+.chat-body .chat.right {
+    padding: 0 8px 3px 0;
+    text-align: right;
+    float: right;
+}
+
+.chat-body .chat.right .avatar {
+    right: 0;
+}
+.chat-body .chat.right .avatar .status {
+    left: 4px;
+}
+.chat-body .chat.right .text {
+    background: #ADD8E6;
+    color: #ffffff;
+    border-radius: 8px 8px 0 8px;
+}
+.chat-body .chat.right .text:before {
+    right: -25px;
+    border-left-color: #ADD8E6;
+    border-left-width: 12px;
+}
+.chat-body .chat.right .time {
+    padding-right: 12px;
+    color: #757575;
+}
+
+.chat.conversation-start {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.chat.conversation-start span {
+  font-size: 12px;
+  display: block;
+  color: #757575;
+  font-style: italic;
+}
+.chat.conversation-start span:before, .chat.conversation-start span:after {
+  position: absolute;
+  top: 10px;
+  display: inline-block;
+  width: 30%;
+  height: 1px;
+  content: '';
+  background-color: #e6e6e6;
+}
+.chat.conversation-start span:before {
+  left: 0;
+}
+ .chat.conversation-start span:after {
+  right: 0;
+}
+
+
